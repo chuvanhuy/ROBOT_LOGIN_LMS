@@ -27,4 +27,4 @@ Mở trình duyệt & Website
 
 Thoát và đóng trình duyệt
     # Click Element    ${WEB_ADDRESS}/login/logout.php
-    Close Browser
+    # Close Browser
