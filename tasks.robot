@@ -13,7 +13,7 @@ ${WEB_ADDRESS}      https://school.moodledemo.net
 Robot Login LMS
     Mở trình duyệt & Website
     Đăng nhập
-    [Teardown]    Thoát và đóng trình duyệt
+    # [Teardown]    Thoát và đóng trình duyệt
 
 
 *** Keywords ***
@@ -25,6 +25,6 @@ Mở trình duyệt & Website
     Input Password    password    moodle
     Submit Form
 
-Thoát và đóng trình duyệt
+# Thoát và đóng trình duyệt
     # Click Element    ${WEB_ADDRESS}/login/logout.php
     # Close Browser
